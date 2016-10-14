@@ -1,0 +1,10 @@
+body,
+html {
+    min-height: 100%;
+}
+
+body{
+  background-image: url(../img/hackers-movie-wallpaper-8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
