@@ -1,20 +1,22 @@
-body,
-html {
-    min-height: 100%;
+{
+  margin: 0;
+}
+body,html
+{
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 20px;
 }
 
-body{
-  background-image:url(../img/hackers-movie-wallpaper-8.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
   /* Remove margins and padding from the list, and add a black background color */
   ul.topnav {
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #333;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
   }
 
   /* Float the list items side by side */
@@ -61,4 +63,36 @@ body{
     display: block;
     text-align: left;
   }
+}
+.sect{
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.subSection {
+    height: 50%;
+    background-color: bisque;
+}
+
+.sectOne {
+    background-image: url(../img/hackers-banner.jpg);
+
+}
+.sectTwo {
+    background-image: url(../img/hackers-banner2.jpg);
+
+}
+.sectThree {
+    background-image: url(../img/hackers-banner3.jpg);
+
+}
+
+.subSectionOne {
+    background-image: url(../img/hacktheplanet.png);
+    background-size: contain;
+}
+.subSectionTwo {
+    background-image: url(../img/hacktheplanet.png);
+    background-size: contain;
 }
