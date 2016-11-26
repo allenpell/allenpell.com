@@ -67,22 +67,28 @@ body {
 
 .sectOne {
     background-image: url(../img/gamecube2.jpg);
+    background-size: width 100%;
+    background-repeat: no-repeat;
 
 }
 .sectTwo {
     background-image: url(../img/sitecss.png);
-
+    background-size: width 100%;
+    background-repeat: no-repeat;
 }
 .sectThree {
     background-image: url(../img/hackers-banner3.jpg);
-
+    background-size: width 100%;
+    background-repeat: no-repeat;
 }
 
 .subSectionOne {
     background-image: url(../img/whitekeyboard2.jpg);
     background-size: cover;
+
 }
 .subSectionTwo {
     background-image: url(../img/whitekeyboard2.jpg);
     background-size: cover;
+
 }

@@ -1,0 +1,15 @@
+{
+  "name": "Allenpell.com",
+  "description": "Allen Pell's personal site design",
+  "private": false,
+  "repository": "https://github.com/allenpell/public_html.git",
+  "homepage": "https://www.allenpell.com/",
+  "dependencies": {
+    "font-awesome-stylus": "^4.5.0",
+    "is-in-viewport": "^2.3.1",
+    "jquery": "^2.2.0",
+    "jquery-validation": "1.14.0",
+    "jquery.scrollto": "^2.1.2",
+    "jquery.session": "^1.0.0"
+  }
+}
